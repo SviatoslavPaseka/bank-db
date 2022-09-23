@@ -1,12 +1,16 @@
 package com.solvd.laba.bank.models;
 
+import java.util.List;
+
 public class Credit_control_system {
-	private Long id;
+	private Integer id;
 	private String name;
-	private Long manager_id;
+	private Integer manager_id;
 	private Double max_credit_value;
 	
-	public Credit_control_system(Long id, String name, Long manager_id, Double max_credit_value) {
+	private List<Integer> credit_ids;
+	
+	public Credit_control_system(Integer id, String name, Integer manager_id, Double max_credit_value) {
 		this.id = id;
 		this.name = name;
 		this.manager_id = manager_id;
@@ -15,10 +19,10 @@ public class Credit_control_system {
 	public Credit_control_system() {
 	}
 	
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getName() {
@@ -27,10 +31,10 @@ public class Credit_control_system {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Long getManager_id() {
+	public Integer getManager_id() {
 		return manager_id;
 	}
-	public void setManager_id(Long manager_id) {
+	public void setManager_id(Integer manager_id) {
 		this.manager_id = manager_id;
 	}
 	public Double getMax_credit_value() {

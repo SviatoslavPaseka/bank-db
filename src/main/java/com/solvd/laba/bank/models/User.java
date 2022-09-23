@@ -1,24 +1,29 @@
 package com.solvd.laba.bank.models;
 
+import java.util.List;
+
 public class User {
-	private Long id;
+	private Integer id;
 	private String username;
 	private String email;
 	private String password;
 	
+	private List<Integer> personal_photos_id;
+	private List<Integer> account_numbers;
+	
 	public User() {
 	}
-	public User(Long id, String username, String email, String password) {
+	public User(Integer id, String username, String email, String password) {
 		this.id = id;
 		this.username = username;
 		this.email = email;
 		this.password = password;
 	}
 	
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getUsername() {

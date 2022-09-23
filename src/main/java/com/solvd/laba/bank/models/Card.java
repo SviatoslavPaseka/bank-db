@@ -1,21 +1,26 @@
 package com.solvd.laba.bank.models;
 
+import java.util.List;
+
 public class Card {
-	private Long id;
+	private Integer id;
 	private String card_type;
-	private Long account_ac_no;
+//	private Integer account_ac_no;
+	
+	private List<Integer> credit_ids;
+	private List<Integer> debit_ids;
 	
 	public Card() {
 	}
-	public Card(Long id, String card_type, Long account_ac_no) {
+	public Card(Integer id, String card_type) {
 		this.id = id;
 		this.card_type = card_type;
-		this.account_ac_no = account_ac_no;
+//		this.account_ac_no = account_ac_no;
 	}
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getCard_type() {
@@ -24,15 +29,10 @@ public class Card {
 	public void setCard_type(String card_type) {
 		this.card_type = card_type;
 	}
-	public Long getAccount_ac_no() {
-		return account_ac_no;
-	}
-	public void setAccount_ac_no(Long account_ac_no) {
-		this.account_ac_no = account_ac_no;
-	}
-	@Override
-	public String toString() {
-		return "Card [id=" + id + ", card_type=" + card_type + ", account_ac_no=" + account_ac_no + "]";
-	}
-	
+//	public Integer getAccount_ac_no() {
+//		return account_ac_no;
+//	}
+//	public void setAccount_ac_no(Integer account_ac_no) {
+//		this.account_ac_no = account_ac_no;
+//	}
 }

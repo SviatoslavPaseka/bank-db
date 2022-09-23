@@ -1,24 +1,28 @@
 package com.solvd.laba.bank.models;
 
+import java.util.List;
+
 public class Debit {
-	private Long id;
+	private Integer id;
 	private Double value;
-	private Long credit_control_system_id;
-	private Long credit_control_system_manager_id;
+//	private Integer credit_control_system_id;
+//	private Integer credit_control_system_manager_id;
+	
+	private List<Integer> card_ids;
 	
 	public Debit() {
 	}
-	public Debit(Long id, Double value, Long credit_control_system_id, Long credit_control_system_manager_id) {
+	public Debit(Integer id, Double value) {
 		this.id = id;
 		this.value = value;
-		this.credit_control_system_id = credit_control_system_id;
-		this.credit_control_system_manager_id = credit_control_system_manager_id;
+//		this.credit_control_system_id = credit_control_system_id;
+//		this.credit_control_system_manager_id = credit_control_system_manager_id;
 	}
 	
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public Double getValue() {
@@ -27,18 +31,16 @@ public class Debit {
 	public void setValue(Double value) {
 		this.value = value;
 	}
-	public Long getCredit_control_system_id() {
-		return credit_control_system_id;
-	}
-	public void setCredit_control_system_id(Long credit_control_system_id) {
-		this.credit_control_system_id = credit_control_system_id;
-	}
-	public Long getCredit_control_system_manager_id() {
-		return credit_control_system_manager_id;
-	}
-	public void setCredit_control_system_manager_id(Long credit_control_system_manager_id) {
-		this.credit_control_system_manager_id = credit_control_system_manager_id;
-	}
-	
-	
+//	public Integer getCredit_control_system_id() {
+//		return credit_control_system_id;
+//	}
+//	public void setCredit_control_system_id(Integer credit_control_system_id) {
+//		this.credit_control_system_id = credit_control_system_id;
+//	}
+//	public Integer getCredit_control_system_manager_id() {
+//		return credit_control_system_manager_id;
+//	}
+//	public void setCredit_control_system_manager_id(Integer credit_control_system_manager_id) {
+//		this.credit_control_system_manager_id = credit_control_system_manager_id;
+//	}
 }

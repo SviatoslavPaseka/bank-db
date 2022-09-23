@@ -1,7 +1,7 @@
 package com.solvd.laba.bank.models;
 
 public class Manager {
-	private Long id;
+	private Integer id;
 	private String name;
 	private Double salary;
 	private String hirerarghy;
@@ -9,7 +9,7 @@ public class Manager {
 	
 	public Manager() {
 	}
-	public Manager(Long id, String name, Double salary, String hirerarghy, Double month_income) {
+	public Manager(Integer id, String name, Double salary, String hirerarghy, Double month_income) {
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
@@ -17,10 +17,10 @@ public class Manager {
 		this.month_income = month_income;
 	}
 	
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getName() {
