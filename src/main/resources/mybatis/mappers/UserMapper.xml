@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.laba.bank.bankDAO.IUserRepo">
+	<select id="findById" parameterType="java.lang.Integer"
+		resultType="user" >
+		select * from users where id = #{id}
+	</select>
+	
+	<insert id="createUser" parameterType="user" keyProperty="id" useGeneratedKeys="true">
+		insert into bank_dev.users (username, email, password)
+		values (#{username}, #{email}, #{password});
+	</insert>
+	
+	<select id="findAll" resultType="user">
+		select * from users;
+	</select>
+	
+	<update id="updateUser" parameterType="user">
+		update bank_dev.users
+		set username = #{username}, email = #{email}, password = #{password}
+		where id = #{id}
+	</update>
+	<delete id="deleteById" parameterType="java.lang.Integer">
+		delete from bank_dev.users where id = #{id};
+	</delete>
+</mapper>
+
+
+
+
+
+<!-- <select id="findByUsername" parameterType="java.lang.String" resultType="user"> 
+		SELECT *
+		FROM users 
+		WHERE username = #{username}
+	</select>
+	<select id="findByEmail" parameterType="java.lang.String" resultType="user">
+		SELECT *
+		FROM users 
+		WHERE email = #{email}
+	</select> -->

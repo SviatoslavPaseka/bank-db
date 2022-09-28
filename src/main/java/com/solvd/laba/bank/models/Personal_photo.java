@@ -30,6 +30,12 @@ public class Personal_photo {
 		this.photo_link = photo_link;
 	}
 
+	@Override
+	public String toString() {
+		return "Personal_photo [id=" + id + ", photo_link=" + photo_link + "]";
+	}
+
+	
 //	public Integer getUser_id() {
 //		return user_id;
 //	}

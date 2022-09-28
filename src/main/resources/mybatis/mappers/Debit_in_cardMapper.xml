@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.laba.bank.bankDAO.IDebit_in_cardRepo">
+
+	<select id="findByCard_id" parameterType="java.lang.Integer"
+		resultType="debit_in_card">
+		select * from debits_in_card where cards_id = #{card_id}
+	</select>
+
+</mapper>

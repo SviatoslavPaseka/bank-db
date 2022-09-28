@@ -42,4 +42,8 @@ public class Credit {
 //	public void setCredit_control_system_manager_id(Integer credit_control_system_manager_id) {
 //		this.credit_control_system_manager_id = credit_control_system_manager_id;
 //	}
+	@Override
+	public String toString() {
+		return "Credit [id=" + id + ", value=" + value + "]";
+	}
 }

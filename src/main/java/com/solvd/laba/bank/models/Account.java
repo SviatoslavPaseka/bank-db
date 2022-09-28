@@ -6,7 +6,6 @@ public class Account {
 	private Integer ac_no;
 	private Double balance;
 	private String ac_type;
-//	private Integer user_id;
 	
 	private List<Integer> transactions_ids;
 	private List<Integer> card_ids;
@@ -18,7 +17,6 @@ public class Account {
 		this.ac_no = ac_no;
 		this.balance = balance;
 		this.ac_type = ac_type;
-	//	this.user_id = user_id;
 	}
 	public Integer getAc_no() {
 		return ac_no;
@@ -38,10 +36,8 @@ public class Account {
 	public void setAc_type(String ac_type) {
 		this.ac_type = ac_type;
 	}
-//	public Integer getUser_id() {
-//		return user_id;
-//	}
-//	public void setUser_id(Integer user_id) {
-//		this.user_id = user_id;
-//	}
+	@Override
+	public String toString() {
+		return "Account [ac_no=" + ac_no + ", balance=" + balance + ", ac_type=" + ac_type + "]";
+	}
 }
