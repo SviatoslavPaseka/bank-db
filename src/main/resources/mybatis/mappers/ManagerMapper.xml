@@ -8,5 +8,21 @@
 		resultType="manager">
 		select * from managers where id = #{id}
 	</select>
-
+	<select id="findAll" resultType="manager">
+		select * from managers;
+	</select>
+	
+	<insert id="createManager" parameterType="manager" keyProperty="id" useGeneratedKeys="true">
+		insert into bank_dev.managers(`name`, `salary`, `hirerarghy`, `month_income`)
+		values (#{name}, #{salary}, #{hirerarghy}, #{month_income});
+	</insert>
+	
+	<update id="updateManager" parameterType="manager">
+		update bank_dev.managers
+		set `name` = #{name}, `salary` = #{salary}, `hirerarghy` = #{hirerarghy}, `month_income` = #{month_income}
+		where id = #{id}
+	</update>
+	<delete id="deleteById" parameterType="java.lang.Integer">
+		delete from bank_dev.managers where id = #{id};
+	</delete>
 </mapper>

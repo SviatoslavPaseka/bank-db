@@ -124,3 +124,351 @@
 2022-09-28 23:21:29 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
 2022-09-28 23:21:29 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
 2022-09-28 23:21:29 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 01:09:53 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 01:09:54 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 01:09:54 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 01:09:54 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 15:43:34 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 15:43:34 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 15:43:34 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 15:43:34 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 15:43:34 INFO  App:1511 - com.solvd.laba.bank.models.Manager@6d025197
+2022-09-29 15:44:00 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 15:44:01 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 15:44:01 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 15:44:01 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 15:44:01 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 15:51:22 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 15:51:23 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 15:51:23 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 15:51:23 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 15:51:23 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 15:51:23 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 15:51:23 INFO  App:1511 - Manager [id=2, name=Sasha, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 15:54:07 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 15:54:08 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 15:54:08 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 15:54:08 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 15:54:08 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 15:54:08 INFO  App:1511 - Manager [id=2, name=Sasha, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 15:55:35 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 15:55:35 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 15:55:35 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 15:55:35 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 15:55:35 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 15:55:35 INFO  App:1511 - Manager [id=2, name=Sasha, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 15:56:26 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 15:56:26 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 15:56:26 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 15:56:26 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 15:56:26 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 15:56:26 INFO  App:1511 - Manager [id=2, name=Sasha, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 16:46:06 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 16:46:07 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 16:46:07 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 16:46:07 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 16:46:07 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 16:46:07 INFO  App:1511 - Manager [id=2, name=Sasha, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 19:55:21 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 19:55:21 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 19:55:21 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 19:55:21 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 19:55:21 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 19:55:21 INFO  App:1511 - Manager [id=2, name=Sasha, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 19:55:22 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 19:55:22 INFO  App:1511 - Manager [id=2, name=asdasd, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 20:36:54 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 20:36:55 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 20:36:55 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 20:36:55 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 20:36:55 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 20:36:55 INFO  App:1511 - Manager [id=2, name=asdasd, salary=200.0, hirerarghy=neTop, month_income=789.0]
+2022-09-29 20:36:55 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 21:07:11 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-29 21:07:11 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-29 21:07:11 INFO  App:1511 - User [id=8, username=un1, email=un1@i.ua, password=1001]
+2022-09-29 21:07:11 INFO  App:1511 - User [id=16, username=un2, email=un2@i.ua, password=1001]
+2022-09-29 21:07:11 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-29 21:07:11 INFO  App:1511 - Manager [id=1, name=Ivan, salary=1000.0, hirerarghy=Top, month_income=700.0]
+2022-09-30 18:57:47 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 18:57:48 INFO  App:1511 - User [id=1, username=Ales, email=null, password=null]
+2022-09-30 19:02:53 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:02:53 INFO  App:1511 - User [id=1, username=Ales, email=null, password=null]
+2022-09-30 19:03:34 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:03:35 INFO  App:1511 - User [id=1, username=Ales, email=ales@gmail.com, password=1234]
+2022-09-30 19:06:10 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:06:45 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:06:46 INFO  App:40 - 1
+2022-09-30 19:08:10 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:08:10 INFO  App:1511 - 1
+2022-09-30 19:08:42 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:08:43 INFO  App:1511 - 1
+2022-09-30 19:09:33 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:09:55 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:09:55 INFO  App:1511 - 1
+2022-09-30 19:10:50 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:11:41 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:13:40 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:13:40 INFO  App:1511 - 8
+2022-09-30 19:20:05 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:20:05 INFO  App:1511 - 1
+2022-09-30 19:20:05 INFO  App:1511 - 1
+2022-09-30 19:20:53 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:20:54 INFO  App:1511 - Ales
+2022-09-30 19:20:54 INFO  App:1511 - Ales
+2022-09-30 19:20:54 INFO  App:1511 - un1
+2022-09-30 19:26:57 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:27:32 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:28:42 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:30:05 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:30:05 INFO  App:1511 - Ales
+2022-09-30 19:30:05 INFO  App:1511 - Ales
+2022-09-30 19:30:05 INFO  App:1511 - un1
+2022-09-30 19:50:39 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:50:40 INFO  App:1511 - Ales
+2022-09-30 19:50:40 INFO  App:1511 - Ales
+2022-09-30 19:50:40 INFO  App:1511 - un1
+2022-09-30 19:51:37 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:53:43 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:54:16 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:54:17 INFO  App:1511 - User [id=null, username=Ales, email=null, password=null]
+2022-09-30 19:54:17 INFO  App:1511 - User [id=null, username=Ales, email=null, password=null]
+2022-09-30 19:54:17 INFO  App:1511 - User [id=null, username=un1, email=null, password=null]
+2022-09-30 19:57:37 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:57:37 INFO  App:1511 -  username=Alesphotos=null
+2022-09-30 19:57:37 INFO  App:1511 -  username=Alesphotos=null
+2022-09-30 19:57:37 INFO  App:1511 -  username=un1photos=null
+2022-09-30 19:58:05 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 19:58:06 INFO  App:1511 -  username=Ales photos=null
+2022-09-30 19:58:06 INFO  App:1511 -  username=Ales photos=null
+2022-09-30 19:58:06 INFO  App:1511 -  username=un1 photos=null
+2022-09-30 20:02:11 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-09-30 20:02:11 INFO  App:1511 - User [username=Ales, personal_photos=null]
+2022-09-30 20:02:11 INFO  App:1511 - User [username=Ales, personal_photos=null]
+2022-09-30 20:02:11 INFO  App:1511 - User [username=un1, personal_photos=null]
+2022-10-03 12:01:29 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-03 12:01:30 INFO  App:1511 - User [username=Ales, personal_photos=[Personal_photo [id=null, photo_link=link123]]]
+2022-10-03 12:01:30 INFO  App:1511 - User [username=Ales, personal_photos=[Personal_photo [id=null, photo_link=link223]]]
+2022-10-03 12:01:30 INFO  App:1511 - User [username=un1, personal_photos=[Personal_photo [id=null, photo_link=someLink]]]
+2022-10-03 12:02:58 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-03 12:02:58 INFO  App:1511 - Ales[Personal_photo [id=null, photo_link=link123]]
+2022-10-03 12:02:58 INFO  App:1511 - Ales[Personal_photo [id=null, photo_link=link223]]
+2022-10-03 12:02:58 INFO  App:1511 - un1[Personal_photo [id=null, photo_link=someLink]]
+2022-10-04 10:09:48 INFO  UserValidation:22 - Created user object
+2022-10-04 10:09:48 INFO  UserValidation:28 - Created context
+2022-10-04 10:09:48 INFO  UserValidation:30 - Created marshaller
+2022-10-04 10:09:48 INFO  UserValidation:33 - Marshalled object
+2022-10-04 10:09:48 INFO  App:33 - END
+2022-10-04 10:11:27 INFO  UserValidation:24 - Created user object
+2022-10-04 10:11:27 INFO  UserValidation:30 - Created context
+2022-10-04 10:11:27 INFO  UserValidation:32 - Created marshaller
+2022-10-04 10:11:27 INFO  UserValidation:35 - Marshalled object
+2022-10-04 10:11:27 INFO  App:33 - END
+2022-10-04 10:12:09 INFO  UserValidation:24 - Created user object
+2022-10-04 10:12:09 INFO  UserValidation:30 - Created context
+2022-10-04 10:12:09 INFO  UserValidation:32 - Created marshaller
+2022-10-04 10:12:09 INFO  UserValidation:35 - Marshalled object
+2022-10-04 10:12:09 INFO  App:33 - END
+2022-10-04 10:12:36 INFO  UserValidation:24 - Created user object
+2022-10-04 10:12:36 INFO  UserValidation:30 - Created context
+2022-10-04 10:12:36 INFO  UserValidation:32 - Created marshaller
+2022-10-04 10:12:36 INFO  UserValidation:35 - Marshalled object
+2022-10-04 10:12:36 INFO  App:33 - END
+2022-10-04 10:17:32 INFO  UserValidation:24 - Created context
+2022-10-04 10:17:32 INFO  UserValidation:25 - Created marshaller
+2022-10-04 10:17:32 INFO  UserValidation:27 - Marshalled object
+2022-10-04 10:17:32 INFO  App:33 - END
+2022-10-04 10:22:36 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 10:22:37 INFO  UserValidation:17 - Created context
+2022-10-04 10:22:37 INFO  UserValidation:18 - Created marshaller
+2022-10-04 10:22:37 INFO  UserValidation:20 - Marshalled object
+2022-10-04 10:22:37 INFO  App:31 - END
+2022-10-04 10:23:03 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 10:23:04 INFO  UserValidation:17 - Created context
+2022-10-04 10:23:04 INFO  UserValidation:18 - Created marshaller
+2022-10-04 10:23:04 INFO  UserValidation:20 - Marshalled object
+2022-10-04 10:23:04 INFO  App:31 - END
+2022-10-04 10:28:41 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 10:28:42 INFO  UserValidation:25 - Created context
+2022-10-04 10:28:42 INFO  UserValidation:26 - Created marshaller
+2022-10-04 10:28:42 INFO  App:36 - END
+2022-10-04 10:29:26 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 10:29:27 INFO  App:1511 - Alesnull
+2022-10-04 10:29:27 INFO  App:1511 - un1null
+2022-10-04 10:29:27 INFO  App:1511 - un2null
+2022-10-04 10:29:27 INFO  UserValidation:25 - Created context
+2022-10-04 10:29:27 INFO  UserValidation:26 - Created marshaller
+2022-10-04 10:29:27 INFO  App:37 - END
+2022-10-04 10:43:22 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 10:43:22 INFO  App:1511 - Alesnull
+2022-10-04 10:43:22 INFO  App:1511 - un1null
+2022-10-04 10:43:22 INFO  App:1511 - un2null
+2022-10-04 10:43:23 INFO  UserValidation:19 - Created context
+2022-10-04 10:43:23 INFO  UserValidation:20 - Created marshaller
+2022-10-04 10:43:23 INFO  UserValidation:22 - Marshalled object
+2022-10-04 10:43:23 INFO  App:37 - END
+2022-10-04 10:44:07 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 10:44:08 INFO  App:1511 - Alesnull
+2022-10-04 10:44:08 INFO  App:1511 - un1null
+2022-10-04 10:44:08 INFO  App:1511 - un2null
+2022-10-04 10:44:08 INFO  UserValidation:19 - Created context
+2022-10-04 10:44:08 INFO  UserValidation:20 - Created marshaller
+2022-10-04 10:44:08 INFO  UserValidation:22 - Marshalled object
+2022-10-04 10:44:08 INFO  App:37 - END
+2022-10-04 11:19:00 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:19:00 INFO  App:1511 - Alesnull
+2022-10-04 11:19:00 INFO  App:1511 - un1null
+2022-10-04 11:19:00 INFO  App:1511 - un2null
+2022-10-04 11:19:00 INFO  UserValidation:26 - Created context
+2022-10-04 11:19:00 INFO  UserValidation:27 - Created marshaller
+2022-10-04 11:19:00 INFO  App:37 - END
+2022-10-04 11:19:50 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:19:51 INFO  App:1511 - Alesnull
+2022-10-04 11:19:51 INFO  App:1511 - un1null
+2022-10-04 11:19:51 INFO  App:1511 - un2null
+2022-10-04 11:19:51 INFO  App:37 - END
+2022-10-04 11:21:41 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:21:42 INFO  App:1511 - Alesnull
+2022-10-04 11:21:42 INFO  App:1511 - un1null
+2022-10-04 11:21:42 INFO  App:1511 - un2null
+2022-10-04 11:21:42 INFO  App:37 - END
+2022-10-04 11:23:25 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:23:25 INFO  App:1511 - Alesnull
+2022-10-04 11:23:25 INFO  App:1511 - un1null
+2022-10-04 11:23:25 INFO  App:1511 - un2null
+2022-10-04 11:23:26 INFO  App:37 - END
+2022-10-04 11:25:03 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:25:03 INFO  App:1511 - Alesnull
+2022-10-04 11:25:03 INFO  App:1511 - un1null
+2022-10-04 11:25:03 INFO  App:1511 - un2null
+2022-10-04 11:25:03 INFO  UserValidation:26 - Created context
+2022-10-04 11:25:03 INFO  UserValidation:27 - Created marshaller
+2022-10-04 11:25:03 INFO  UserValidation:30 - Marshalled object
+2022-10-04 11:25:03 INFO  App:37 - END
+2022-10-04 11:25:28 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:25:28 INFO  App:1511 - Alesnull
+2022-10-04 11:25:28 INFO  App:1511 - un1null
+2022-10-04 11:25:28 INFO  App:1511 - un2null
+2022-10-04 11:25:28 INFO  UserValidation:26 - Created context
+2022-10-04 11:25:28 INFO  UserValidation:27 - Created marshaller
+2022-10-04 11:25:28 INFO  UserValidation:30 - Marshalled object
+2022-10-04 11:25:28 INFO  App:37 - END
+2022-10-04 11:26:44 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:26:45 INFO  App:1511 - Alesnull
+2022-10-04 11:26:45 INFO  App:1511 - un1null
+2022-10-04 11:26:45 INFO  App:1511 - un2null
+2022-10-04 11:26:45 INFO  UserValidation:26 - Created context
+2022-10-04 11:26:45 INFO  UserValidation:27 - Created marshaller
+2022-10-04 11:26:45 INFO  UserValidation:30 - Marshalled object
+2022-10-04 11:26:45 INFO  App:37 - END
+2022-10-04 11:28:48 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 11:28:49 INFO  App:1511 - Alesnull
+2022-10-04 11:28:49 INFO  App:1511 - un1null
+2022-10-04 11:28:49 INFO  App:1511 - un2null
+2022-10-04 11:28:49 INFO  UserValidation:26 - Created context
+2022-10-04 11:28:49 INFO  UserValidation:27 - Created marshaller
+2022-10-04 11:28:49 INFO  UserValidation:30 - Marshalled object
+2022-10-04 11:28:49 INFO  App:37 - END
+2022-10-04 13:34:50 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 13:34:51 INFO  App:1511 - Alesnull
+2022-10-04 13:34:51 INFO  App:1511 - un1null
+2022-10-04 13:34:51 INFO  App:1511 - un2null
+2022-10-04 13:34:51 INFO  UserValidation:20 - Created context
+2022-10-04 13:34:51 INFO  UserValidation:21 - Created marshaller
+2022-10-04 13:34:51 INFO  UserValidation:23 - Marshalled object
+2022-10-04 13:34:51 INFO  UserValidation:27 - Created context
+2022-10-04 13:34:51 INFO  UserValidation:28 - Created marshaller
+2022-10-04 13:34:51 INFO  UserValidation:31 - Marshalled object
+2022-10-04 13:34:51 INFO  App:37 - END
+2022-10-04 13:37:30 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 13:37:30 INFO  App:1511 - Ales ales@gmail.com 1234
+2022-10-04 13:37:30 INFO  App:1511 - un1 un1@i.ua 1001
+2022-10-04 13:37:30 INFO  App:1511 - un2 un2@i.ua 1001
+2022-10-04 13:37:31 INFO  UserValidation:36 - Created context
+2022-10-04 13:37:31 INFO  UserValidation:37 - Created unmarshaller
+2022-10-04 13:37:31 INFO  UserValidation:39 - Assigned user value
+2022-10-04 13:37:31 INFO  App:39 - END
+2022-10-04 13:38:13 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 13:38:14 INFO  UserValidation:36 - Created context
+2022-10-04 13:38:14 INFO  UserValidation:37 - Created unmarshaller
+2022-10-04 13:38:14 INFO  UserValidation:39 - Assigned user value
+2022-10-04 13:38:14 INFO  App:34 - un1 un1@i.ua 1001
+2022-10-04 13:38:14 INFO  App:39 - END
+2022-10-04 13:47:34 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 13:47:35 INFO  UserValidation:36 - Created context
+2022-10-04 13:47:35 INFO  UserValidation:37 - Created unmarshaller
+2022-10-04 13:47:35 INFO  UserValidation:38 - Unmarshalled and assigned user value
+2022-10-04 13:47:35 INFO  App:34 - un1 un1@i.ua 1001
+2022-10-04 13:47:35 INFO  App:39 - END
+2022-10-04 13:49:48 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 13:49:49 INFO  UserValidation:36 - Created context
+2022-10-04 13:49:49 INFO  UserValidation:37 - Created unmarshaller
+2022-10-04 13:49:49 INFO  UserValidation:38 - Unmarshalled and assigned user value
+2022-10-04 13:49:49 INFO  App:33 - un1 un1@i.ua 1001
+2022-10-04 13:49:49 INFO  UserValidation:44 - Created context
+2022-10-04 13:49:49 INFO  UserValidation:45 - Created unmarshaller
+2022-10-04 13:49:49 INFO  UserValidation:46 - Unmarshalled and assigned user value
+2022-10-04 13:49:49 INFO  App:1511 - Ales ales@gmail.com 1234
+2022-10-04 13:49:49 INFO  App:1511 - un1 un1@i.ua 1001
+2022-10-04 13:49:49 INFO  App:1511 - un2 un2@i.ua 1001
+2022-10-04 13:49:49 INFO  App:40 - END
+2022-10-04 14:30:22 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 14:30:23 INFO  UserValidation:20 - Created context
+2022-10-04 14:30:23 INFO  UserValidation:21 - Created marshaller
+2022-10-04 14:30:23 INFO  UserValidation:23 - Marshalled object
+2022-10-04 14:30:23 INFO  UserValidation:27 - Created context
+2022-10-04 14:30:23 INFO  UserValidation:28 - Created marshaller
+2022-10-04 14:30:23 INFO  UserValidation:31 - Marshalled object
+2022-10-04 14:30:23 INFO  App:45 - END
+2022-10-04 15:13:50 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 15:14:36 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:28:15 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:28:33 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:34:27 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:34:28 INFO  App:32 - Ales ales@gmail.com 1234
+2022-10-04 16:35:39 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:35:40 INFO  App:32 - Ales ales@gmail.com 1234
+1
+2022-10-04 16:36:28 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:36:29 INFO  App:32 - 1 Ales ales@gmail.com 1234
+2022-10-04 16:40:04 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:46:05 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:46:06 INFO  App:1511 - 1 Ales ales@gmail.com 1234
+2022-10-04 16:46:06 INFO  App:1511 - 8 un1 un1@i.ua 1001
+2022-10-04 16:48:48 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:48:49 INFO  App:1511 - 1 Ales ales@gmail.com 1234[Photo id:1 link123]
+2022-10-04 16:48:49 INFO  App:1511 - 8 un1 un1@i.ua 1001[Photo id:8 someLink]
+2022-10-04 16:50:54 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:50:55 INFO  App:1511 - 1 Ales ales@gmail.com 1234 [Photo id:1 link123]
+2022-10-04 16:50:55 INFO  App:1511 - 8 un1 un1@i.ua 1001 [Photo id:8 someLink]
+2022-10-04 16:50:55 INFO  App:30 - [Photo id:1 link123]
+2022-10-04 16:52:05 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:52:05 INFO  App:1511 - 1 Ales ales@gmail.com 1234 [Photo id:1 link123, Photo id:1 link223]
+2022-10-04 16:52:05 INFO  App:1511 - 8 un1 un1@i.ua 1001 [Photo id:8 someLink]
+2022-10-04 16:52:05 INFO  App:30 - [Photo id:1 link123, Photo id:1 link223]
+2022-10-04 16:53:21 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:53:22 INFO  App:1511 - 1 Ales ales@gmail.com 1234 [Photo id:1 link123, Photo id:1 link223]
+2022-10-04 16:53:22 INFO  App:1511 - 8 un1 un1@i.ua 1001 [Photo id:8 someLink]
+2022-10-04 16:53:22 INFO  App:30 - [Photo id:1 link123, Photo id:1 link223]
+2022-10-04 16:54:35 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 16:59:36 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 17:06:50 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 17:07:42 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 17:08:10 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 17:08:11 INFO  App:34 - [{id=1, username=Ales, email=ales@gmail.com, password=1234, personal_photos=[{id=1, photo_link=link123}, {id=1, photo_link=link223}]}, {id=8, username=un1, email=un1@i.ua, password=1001, personal_photos=[{id=8, photo_link=someLink}]}]
+2022-10-04 18:17:38 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 18:17:39 INFO  App:34 - [{id=1, username=Ales, email=ales@gmail.com, password=1234, personal_photos=[{id=1, photo_link=link123}, {id=1, photo_link=link223}]}, {id=8, username=un1, email=un1@i.ua, password=1001, personal_photos=[{id=8, photo_link=someLink}]}]
+2022-10-04 18:21:15 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 18:21:16 INFO  App:1511 - 1 Ales ales@gmail.com 1234 [Photo id:1 link123, Photo id:1 link223]
+2022-10-04 18:21:16 INFO  App:1511 - 8 un1 un1@i.ua 1001 [Photo id:8 someLink]
+2022-10-04 18:30:56 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 18:30:56 INFO  App:1511 - 1 Ales ales@gmail.com 1234 [Photo id:1 link123, Photo id:1 link223]
+2022-10-04 18:30:56 INFO  App:1511 - 8 un1 un1@i.ua 1001 [Photo id:8 someLink]
+2022-10-04 18:57:43 INFO  MyBatisFactory:23 - Created MyBatisFactory object with noarguments constructor
+2022-10-04 18:57:44 INFO  UserValidation:20 - Created context
+2022-10-04 18:57:44 INFO  UserValidation:21 - Created marshaller
+2022-10-04 18:57:44 INFO  UserValidation:23 - Marshalled object
+2022-10-04 18:57:44 INFO  UserValidation:27 - Created context
+2022-10-04 18:57:44 INFO  UserValidation:28 - Created marshaller
+2022-10-04 18:57:44 INFO  UserValidation:31 - Marshalled object
+2022-10-04 18:57:44 INFO  App:53 - END

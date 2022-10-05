@@ -1,49 +1,58 @@
 package com.solvd.laba.bank;
 
 import java.io.IOException;
-import java.io.Reader;
+import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.ibatis.io.Resources;
+import javax.xml.bind.JAXBException;
+
 import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.log4j.Logger;
 
-import com.solvd.laba.bank.bankDAO.ICreditRepo;
 import com.solvd.laba.bank.bankDAO.IUserRepo;
-import com.solvd.laba.bank.models.Credit;
+import com.solvd.laba.bank.configs.mybatis.MyBatisFactory;
 import com.solvd.laba.bank.models.User;
+import com.solvd.laba.bank.service.JAXB.UserValidation;
+import com.solvd.laba.bank.service.jackson.UserJson;
 
 public class App {
 	private static final Logger LOGGER = Logger.getLogger(App.class);
-	
-	public static void main(String[] args) throws IOException {
-		
-		Reader reader = Resources.getResourceAsReader("mybatis/mybatis-configuration.xml");
-		
-		SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
-		SqlSessionFactory factory = builder.build(reader);
-		User userToCreate = new User(18, "un3", "un3@gmail.com", "0000");
-		try(SqlSession session = factory.openSession()){
-			IUserRepo userMapper = session.getMapper(IUserRepo.class);
-//			userMapper.createUser(userToCreate);
-//			session.commit();
-			
-			List<User> allUsers = userMapper.findAll();
-			allUsers.forEach(LOGGER::info);
-			System.out.println("\n");
-			userMapper.updateUser(userToCreate);
 
-			allUsers = userMapper.findAll();
-			session.commit();
-			allUsers.forEach(LOGGER::info);
-			
-			
-			userMapper.deleteById(18);
-			allUsers = userMapper.findAll();
-			session.commit();
-			allUsers.forEach(LOGGER::info);
-		}
+	public static void main(String[] args) {
+		MyBatisFactory mbf = new MyBatisFactory();
+		User user = new User();
+		List<User> allUsers = new ArrayList<>();
+		try (SqlSession session = mbf.getFactory().openSession()) {
+			IUserRepo userRepo = session.getMapper(IUserRepo.class);
+			user = userRepo.findById(1);
+			allUsers.addAll(userRepo.findAllUserWithPhoto());
+		} 
+		
+	////-------------------------jackson----------------------------------
+		UserJson.marshal(allUsers, "./src/main/resources/jackson/result.json");
+		UserJson.marshal(allUsers, "./src/main/resources/jackson/result.json");
+		User someUser = UserJson.unmarshal("./src/main/resources/jackson/result.json");
+		LOGGER.info(someUser);
+		UserJson.unmarshalList("./src/main/resources/jackson/result.json").forEach(LOGGER::info);
+	
+	////--------------------------JAXB------------------------------------
+			try {
+				UserValidation.marshal(user, "./src/main/resources/JAXB/single_users.xml");
+				UserValidation.marshal(allUsers, "./src/main/resources/JAXB/all_users.xml");
+			} catch (IOException | JAXBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			User userFromXml;
+			try {
+				userFromXml = UserValidation.unmarshal("./src/main/resources/JAXB/single_users.xml");
+				LOGGER.info(userFromXml);
+				UserValidation.unmarshalList("./src/main/resources/JAXB/all_users.xml")
+				  .forEach(LOGGER::info);
+			} catch (JAXBException | IOException e) {
+				LOGGER.error(e);
+			}
+		
+		LOGGER.info("END");
 	}
 }

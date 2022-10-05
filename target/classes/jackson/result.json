@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"username": "Ales",
+		"email": "ales@gmail.com",
+		"password": "1234",
+		"personal_photos": [
+			{
+				"id": 1,
+				"photo_link": "link123"
+			},
+			{
+				"id": 1,
+				"photo_link": "link223"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"username": "un1",
+		"email": "un1@i.ua",
+		"password": "1001",
+		"personal_photos": [
+			{
+				"id": 8,
+				"photo_link": "someLink"
+			}
+		]
+	}
+]

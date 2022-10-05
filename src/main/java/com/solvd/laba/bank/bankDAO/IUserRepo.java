@@ -10,7 +10,7 @@ public interface IUserRepo {
 	List<User> findAll();
 	void updateUser(User user);
 	void deleteById(Integer id);
-//	User findByUsername(String username);
-//	User findByEmail(String email);
-
+	User findByUsername(String username);
+	User findByEmail(String email);
+	List<User> findAllUserWithPhoto();
 }

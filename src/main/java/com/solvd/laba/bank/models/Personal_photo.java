@@ -32,7 +32,7 @@ public class Personal_photo {
 
 	@Override
 	public String toString() {
-		return "Personal_photo [id=" + id + ", photo_link=" + photo_link + "]";
+		return "Photo id:" + id + " " + photo_link;
 	}
 
 	

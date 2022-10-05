@@ -26,6 +26,11 @@ public class Manager {
 	public String getName() {
 		return name;
 	}
+	@Override
+	public String toString() {
+		return "Manager [id=" + id + ", name=" + name + ", salary=" + salary + ", hirerarghy=" + hirerarghy
+				+ ", month_income=" + month_income + "]";
+	}
 	public void setName(String name) {
 		this.name = name;
 	}

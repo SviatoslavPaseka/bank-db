@@ -2,13 +2,24 @@ package com.solvd.laba.bank.models;
 
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
+import javax.xml.bind.annotation.XmlType;
+
+import com.fasterxml.jackson.annotation.JsonRootName;
+
+@XmlRootElement
+@XmlType(propOrder = {"id", "username", "email", "password"})
+@JsonRootName(value = "User")
 public class User {
 	private Integer id;
 	private String username;
 	private String email;
 	private String password;
 	
-	private List<Integer> personal_photos_id;
+	private List<Personal_photo> personal_photos;
 	private List<Integer> account_numbers;
 	
 	public User() {
@@ -23,31 +34,46 @@ public class User {
 	public Integer getId() {
 		return id;
 	}
+	@XmlAttribute
 	public void setId(Integer id) {
 		this.id = id;
 	}
+	
 	public String getUsername() {
 		return username;
 	}
+	@XmlElement(name = "username")
 	public void setUsername(String username) {
 		this.username = username;
 	}
 	public String getEmail() {
 		return email;
 	}
+	@XmlElement(name = "email")
 	public void setEmail(String email) {
 		this.email = email;
 	}
 	public String getPassword() {
 		return password;
 	}
+	@XmlElement(name = "password")
 	public void setPassword(String password) {
 		this.password = password;
 	}
 	
+	
+	public List<Personal_photo> getPersonal_photos() {
+		return personal_photos;
+	}
+	@XmlTransient
+	public void setPersonal_photos(List<Personal_photo> personal_photos) {
+		this.personal_photos = personal_photos;
+	}
+	
+	
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", email=" + email + ", password=" + password + "]";
+		return id + " " + username + " " + email + " " + password + " " + personal_photos;
 	}
 	@Override
 	public int hashCode() {

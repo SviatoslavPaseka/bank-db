@@ -3,41 +3,72 @@
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.solvd.laba.bank.bankDAO.IUserRepo">
+
+	<resultMap type="user" id="usernamePhotolinkResultMap">
+		<id property="id" column="id" />
+		<result property="username" column="username" />
+		<result property="email" column="email" />
+		<result property="password" column="password" />
+		<collection property="personal_photos"
+			ofType="personal_photo">
+			<result property="photo_link" column="photo_link" />
+			<result property="id" column="id" />
+		</collection>
+	</resultMap>
+
+	<select id="findAllUserWithPhoto"
+		resultMap="usernamePhotolinkResultMap">
+		SELECT bank_dev.users.*, bank_dev.personal_photos.*
+		FROM
+		bank_dev.users
+		inner join bank_dev.personal_photos ON bank_dev.personal_photos.user_id =
+		bank_dev.users.id
+		order by bank_dev.users.id ASC;
+	</select>
+
 	<select id="findById" parameterType="java.lang.Integer"
-		resultType="user" >
+		resultType="user">
 		select * from users where id = #{id}
 	</select>
-	
-	<insert id="createUser" parameterType="user" keyProperty="id" useGeneratedKeys="true">
-		insert into bank_dev.users (username, email, password)
+
+
+	<insert id="createUser" parameterType="user" keyProperty="id"
+		useGeneratedKeys="true">
+		insert into bank_dev.users (username, email,
+		password)
 		values (#{username}, #{email}, #{password});
 	</insert>
-	
+
 	<select id="findAll" resultType="user">
 		select * from users;
 	</select>
-	
+
 	<update id="updateUser" parameterType="user">
 		update bank_dev.users
-		set username = #{username}, email = #{email}, password = #{password}
-		where id = #{id}
+		set
+		username = #{username}, email = #{email}, password = #{password}
+		where
+		id = #{id}
 	</update>
 	<delete id="deleteById" parameterType="java.lang.Integer">
-		delete from bank_dev.users where id = #{id};
+		delete from bank_dev.users
+		where id = #{id};
 	</delete>
+
+	<select id="findByUsername" parameterType="java.lang.String"
+		resultType="user">
+		SELECT *
+		FROM users
+		WHERE username = #{username}
+	</select>
+	<select id="findByEmail" parameterType="java.lang.String"
+		resultType="user">
+		SELECT *
+		FROM users
+		WHERE email = #{email}
+	</select>
 </mapper>
 
 
 
 
-
-<!-- <select id="findByUsername" parameterType="java.lang.String" resultType="user"> 
-		SELECT *
-		FROM users 
-		WHERE username = #{username}
-	</select>
-	<select id="findByEmail" parameterType="java.lang.String" resultType="user">
-		SELECT *
-		FROM users 
-		WHERE email = #{email}
-	</select> -->

@@ -1,4 +1,4 @@
-package com.solvd.laba.bank.configs;
+package com.solvd.laba.bank.configs.connectionPool;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
