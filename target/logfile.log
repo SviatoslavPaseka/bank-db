@@ -472,3 +472,80 @@
 2022-10-04 18:57:44 INFO  UserValidation:28 - Created marshaller
 2022-10-04 18:57:44 INFO  UserValidation:31 - Marshalled object
 2022-10-04 18:57:44 INFO  App:53 - END
+2022-10-06 20:53:57 INFO  App:58 - null null null null null
+2022-10-06 20:53:57 INFO  App:59 - END
+2022-10-06 21:09:29 INFO  App:58 - null null null null null
+2022-10-06 21:09:29 INFO  App:59 - END
+2022-10-06 21:10:28 INFO  App:58 - null null null null null
+2022-10-06 21:10:28 INFO  App:59 - END
+2022-10-06 21:17:22 INFO  App:58 - null null null null null
+2022-10-06 21:17:22 INFO  App:59 - END
+2022-10-07 15:59:37 INFO  App:58 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 15:59:37 INFO  App:59 - END
+2022-10-07 16:10:07 ERROR IUserRepoImpl:49 - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@vore, 7355)' at line 1
+2022-10-07 16:10:07 INFO  App:59 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 16:10:07 INFO  App:61 - END
+2022-10-07 16:11:29 INFO  App:59 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 16:11:29 INFO  App:61 - END
+2022-10-07 16:12:42 ERROR IUserRepoImpl:31 - java.sql.SQLException: Before start of result set
+2022-10-07 16:12:42 INFO  App:59 - 
+2022-10-07 16:12:42 INFO  App:61 - END
+2022-10-07 16:13:29 INFO  App:59 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 16:13:29 INFO  App:61 - END
+2022-10-07 16:16:15 INFO  App:59 - 1 Ales ales@gmail.com 1234 null
+
+2022-10-07 16:16:15 INFO  App:1511 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 16:16:15 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:16:15 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:16:15 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:16:15 INFO  App:1511 - 20 pipa papa@vore 7355 null
+2022-10-07 16:16:15 INFO  App:61 - END
+2022-10-07 16:22:30 INFO  App:59 - 1 Ales ales@gmail.com 1234 null
+
+2022-10-07 16:22:30 INFO  App:1511 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 16:22:30 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:22:30 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:22:30 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:22:30 INFO  App:1511 - 20 pipa papa@vore 7355 null
+2022-10-07 16:22:30 ERROR IUserRepoImpl:83 - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com, `password` = 1234 where `id` = 1' at line 1
+2022-10-07 16:22:30 INFO  App:1511 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 16:22:30 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:22:30 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:22:30 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:22:30 INFO  App:1511 - 20 pipa papa@vore 7355 null
+2022-10-07 16:22:30 INFO  App:63 - END
+2022-10-07 16:23:56 INFO  App:59 - 1 Ales ales@gmail.com 1234 null
+
+2022-10-07 16:23:56 INFO  App:1511 - 1 Ales ales@gmail.com 1234 null
+2022-10-07 16:23:56 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:23:56 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:23:56 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:23:56 INFO  App:1511 - 20 pipa papa@vore 7355 null
+2022-10-07 16:23:56 INFO  App:1511 - 1 Ales xxx.gmail.com 1234 null
+2022-10-07 16:23:56 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:23:56 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:23:56 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:23:56 INFO  App:1511 - 20 pipa papa@vore 7355 null
+2022-10-07 16:23:56 INFO  App:63 - END
+2022-10-07 16:24:30 INFO  App:59 - 1 Ales xxx.gmail.com 1234 null
+
+2022-10-07 16:24:30 INFO  App:1511 - 1 Ales xxx.gmail.com 1234 null
+2022-10-07 16:24:30 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:24:30 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:24:30 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:24:30 INFO  App:1511 - 20 pipa papa@vore 7355 null
+2022-10-07 16:24:30 INFO  App:62 - 1 Ales xxx.gmail.com 1234 null
+2022-10-07 16:24:30 INFO  App:63 - END
+2022-10-07 16:26:09 INFO  App:59 - 1 Ales xxx.gmail.com 1234 null
+
+2022-10-07 16:26:09 INFO  App:1511 - 1 Ales xxx.gmail.com 1234 null
+2022-10-07 16:26:09 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:26:09 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:26:09 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:26:09 INFO  App:1511 - 20 pipa papa@vore 7355 null
+2022-10-07 16:26:09 INFO  App:62 - 1 Ales xxx.gmail.com 1234 null
+2022-10-07 16:26:09 INFO  App:1511 - 1 Ales xxx.gmail.com 1234 null
+2022-10-07 16:26:09 INFO  App:1511 - 8 un1 un1@i.ua 1001 null
+2022-10-07 16:26:09 INFO  App:1511 - 16 un2 un2@i.ua 1001 null
+2022-10-07 16:26:09 INFO  App:1511 - 19 Dima dima@com 1230 null
+2022-10-07 16:26:09 INFO  App:65 - END
