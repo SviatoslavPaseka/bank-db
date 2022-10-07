@@ -20,6 +20,7 @@ public class App {
 	private static final Logger LOGGER = Logger.getLogger(App.class);
 
 	public static void main(String[] args) {
+		////------------------mybatis-------------------------------------
 //		MyBatisFactory mbf = new MyBatisFactory();
 //		User user = new User();
 //		List<User> allUsers = new ArrayList<>();
@@ -53,15 +54,18 @@ public class App {
 //			} catch (JAXBException | IOException e) {
 //				LOGGER.error(e);
 //			}
-		IUserRepoImpl repo = new IUserRepoImpl();
-		User user1 = repo.findById(1);
-		//repo.createUser(new User(1, "pipa", "papa@vore", "7355"));
-		LOGGER.info(user1 + "\n");
-		repo.findAll().forEach(LOGGER::info);
-		repo.updateUser(new User(user1.getId(), user1.getUsername(), "xxx.gmail.com", "1234"));
-		LOGGER.info(repo.findById(1));
-		repo.deleteById(20);
-		repo.findAll().forEach(LOGGER::info);
+		
+		/////-----------------------JDBC-------------------------------------
+//		IUserRepoImpl repo = new IUserRepoImpl();
+//		User user1 = repo.findById(1);
+//		LOGGER.info(user1 + "\n");
+//		repo.createUser(new User(1, "someUSER", "smu@vore", "7355"));
+//		
+//		repo.findAll().forEach(LOGGER::info);
+//		repo.updateUser(new User(user1.getId(), user1.getUsername(), "xxx.gmail.com", "1234"));
+////		LOGGER.info(repo.findById(1));
+//		repo.deleteById(21);
+////		repo.findAll().forEach(LOGGER::info);
 		LOGGER.info("END");
 	}
 }
